@@ -1,0 +1,187 @@
+* {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navv {
+  background-color: #af1313;
+  width: 100%;
+  height: 55px;
+  display: flex;
+  justify-content: space-between;
+}
+.logo-name,
+.anch {
+  margin: 20px;
+}
+.anch a {
+  padding: 0 70px;
+}
+
+.hero {
+  width: 100%;
+  height: calc(100vh - 100px);
+  background-image: url(/img/boutique.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.fhero,
+.shero,
+.thero {
+  text-align: center;
+  color: #c26868;
+  text-shadow: 8px 8px 8px #111;
+}
+
+.fhero {
+  padding-top: 160px;
+  font-family: Cormorant;
+  font-size: 80px;
+  font-weight: 900;
+  line-height: 70px;
+}
+
+.shero {
+  padding-top: 30px;
+  font-family: Cormorant Garamond;
+  font-size: 40px;
+  font-weight: 700;
+  font-style: italic;
+  line-height: 40px;
+}
+
+.thero {
+  padding-top: 20px;
+  font-family: Cormorant Garamond;
+  font-size: 30px;
+  font-weight: 700;
+  font-style: italic;
+  line-height: 40px;
+  text-align: center;
+  /* color: black; */
+}
+
+.hot {
+  width: 100%;
+  height: calc(100vh - 100px);
+}
+
+.hotsub {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  font-family: Cormorant Garamond;
+  font-size: 30px;
+  font-weight: 700;
+  font-style: italic;
+}
+.small {
+  margin: 20px 645px;
+}
+
+.hot-category {
+  display: flex;
+  column-gap: 100px;
+  margin: 70px 150px;
+}
+
+.women {
+  height: 380px;
+  width: 300px;
+  background-color: black;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/img/women.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+    cursor: pointer;
+}
+
+.men {
+  height: 380px;
+  width: 300px;
+  border-radius: 30px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/img/men.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+}
+
+/* .men:hover{
+
+} */
+
+.women a, .men a {
+  font-family: Cormorant;
+  font-size: 50px;
+  font-weight: 900;
+  color: #fff;
+}
+
+.nam-new{
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  font-family: Cormorant Garamond;
+  font-size: 30px;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.new{
+  width: 100%;
+  height: calc(100vh - 100px);
+}
+
+.hot-category{
+
+}
+
+.knew div{
+  height: 380px;
+  width: 300px;  border-radius: 30px;
+  background-color: black;
+  margin: 70px 15px;
+}
+.knew a{
+  display: inline-block;
+  
+ 
+  /* column-gap: 100px; */
+  /* margin: 70px 150px; */
+  
+}
+
+.pant {
+  padding-left: 15px;
+}
+
+.pant p{
+
+}
+
+.jacket{
+ 
+}
+
+.bag{
+  
+}
+
+.dress{
+  
+}
+
+
+ 
