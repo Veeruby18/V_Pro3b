@@ -5,7 +5,7 @@
 }
 
 .navv {
-  background-color: #af1313;
+  background-color: #e4d1d1;
   width: 100%;
   height: 55px;
   display: flex;
@@ -15,8 +15,20 @@
 .anch {
   margin: 20px;
 }
+
+.logo-name a {
+  font-family: cormorant Garamond;
+  font-size: 25px;
+  font-weight: 20px;
+  color: #744646;
+}
+
 .anch a {
   padding: 0 70px;
+  font-family: cormorant Garamond;
+  font-size: 20px;
+  font-weight: 20px;
+  color: #744646;
 }
 
 .hero {
@@ -80,6 +92,8 @@
 }
 .small {
   margin: 20px 645px;
+  padding-top: 2px;
+  background-color: #c26868;
 }
 
 .hot-category {
@@ -100,7 +114,7 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .men {
@@ -122,14 +136,15 @@
 
 } */
 
-.women a, .men a {
+.women a,
+.men a {
   font-family: Cormorant;
   font-size: 50px;
   font-weight: 900;
   color: #fff;
 }
 
-.nam-new{
+.nam-new {
   display: flex;
   justify-content: center;
   margin-top: 100px;
@@ -139,49 +154,246 @@
   font-style: italic;
 }
 
-.new{
+.new {
   width: 100%;
   height: calc(100vh - 100px);
 }
 
-.hot-category{
-
-}
-
-.knew div{
+.knew div {
   height: 380px;
-  width: 300px;  border-radius: 30px;
-  background-color: black;
+  width: 300px;
+  border-radius: 30px;
+  background-color: #c26868;
   margin: 70px 15px;
 }
-.knew a{
+.knew a {
   display: inline-block;
-  
- 
   /* column-gap: 100px; */
   /* margin: 70px 150px; */
-  
+}
+
+.knew span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  font-size: 25px;
+  text-transform: uppercase;
+  /* letter-spacing: 2px; */
+  opacity: 8px;
+}
+
+.n {
+}
+
+.knew #d {
+  margin-top: 290px;
 }
 
 .pant {
-  padding-left: 15px;
+  background-image: url(img/pant.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+
+  /* padding-left: 15px; */
+}
+.jacket {
+  background-image: url(img/jacket.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
+.bag {
+  background-image: url(img/bag.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.dress {
+  background-image: url(img/dress.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about {
+  margin: 100px 20px;
+  padding: 70px 0px 0 0px;
+  justify-content: space-between;
+  display: flex;
+  column-gap: 80px;
+}
+
+img {
+  height: 570px;
+  width: 600px;
+  padding: 5px 5px 5px 15px;
+  margin-left: 5px;
+}
+
+.bcol .ch5 {
+  display: flex;
+  justify-content: center;
+  font-family: Cormorant Garamond;
+  font-size: 30px;
+  font-weight: 700;
+  font-style: italic;
+  text-align: center;
+}
+
+.product {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, auto));
+  gap: 2rem;
+}
+
+.product div {
+  position: relative;
+  transition: all 0.4s;
+}
+
+.product div img {
+  width: 100%;
+  height: 350px;
+  transition: all 0.4s;
+}
+/* 
 .pant p{
+  text-align: center;
+  box-sizing: border-box;
+  margin: 300px 0 30px 0 !important;
+  padding: 0 118px;
+background-color: #c26868;
+position: absolute;
+margin-bottom: 30px;
+opacity: 80%;
+} */
 
+/* .knew .pant .p{
+  margin-top: 50px;
+
+} */
+
+.asmall {
+  margin: 20px 280px;
+  padding-top: 2px;
+  background-color: #c26868;
 }
 
-.jacket{
- 
+.bcol p {
+  font-family: Cormorant;
+  font-size: 19px;
+  text-align: center;
+  line-height: 50px;
 }
 
-.bag{
-  
+.contact {
+  width: 700px;
+  height: 400px;
+  background-color: rgb(252, 230, 234);
+  margin: 20px 305px;
+  justify-content: space-around;
 }
 
-.dress{
-  
+.lab {
+  display: flex;
+  padding: 20px 20px;
+  font-weight: 500;
+  font-family: Cormorant;
+  justify-content: space-between;
 }
 
+.message {
+  padding-left: 18px;
+  font-weight: 500;
+  font-family: Cormorant;
+}
+.message textarea {
+  margin-top: -15px;
+  margin-left: 109px;
+}
 
- 
+.contact button {
+  margin: 20px 300px;
+  padding: 10px 30px;
+  border-radius: 30px;
+  background-color: rgb(240, 146, 146);
+  font-family: Cormorant;
+  font-weight: 500;
+}
+.contact h3 {
+  text-align: center;
+  margin-top: 100px;
+  font-family: Cormorant Garamond;
+  font-size: 30px;
+  font-weight: 700;
+  font-style: italic;
+  padding-top: 20px;
+}
+
+.bsmall {
+  margin: 20px 320px;
+  padding-top: 2px;
+  background-color: #c26868;
+}
+
+footer {
+  background-color: rgb(75, 55, 55);
+  height: 150px;
+}
+
+footer ul {
+  display: flex;
+  align-items: center;
+  padding-left: 210px;
+}
+
+footer ul li {
+  padding: 5px 0;
+  list-style: none;
+  padding: 50px 100px;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: white;
+  font-family: Cormorant;
+  font-weight: 400;
+  font-size: 17px;
+}
+
+.fimg img {
+  width: 30px;
+  height: 30px;
+  padding: 0;
+}
+
+.fimg {
+  margin-top: -40px;
+  position: absolute;
+  left: 28rem;
+}
+.fimg a {
+  padding-left: 4rem;
+}
+.scopy {
+  background-color: black;
+}
+.copy p {
+  font-family: Cormorant;
+  font-size: 15px;
+  text-align: center;
+  color: beige;
+}
+
+.copy {
+  left: 34rem;
+  background-color: rgb(31, 27, 27);
+  width: 100%;
+  margin-bottom: -30px;
+}
