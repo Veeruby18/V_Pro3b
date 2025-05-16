@@ -159,66 +159,82 @@
   height: calc(100vh - 100px);
 }
 
-.knew div {
-  height: 380px;
-  width: 300px;
-  border-radius: 30px;
-  background-color: #c26868;
-  margin: 70px 15px;
-}
-.knew a {
-  display: inline-block;
-  /* column-gap: 100px; */
-  /* margin: 70px 150px; */
+.new-category {
+  display: flex;
+  column-gap: 30px;
+  margin: 70px 30px;
 }
 
-.knew span {
+.blue {
+  height: 380px;
+  width: 350px;
+  background-color: black;
+  border-radius: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 30px;
-  font-size: 25px;
-  text-transform: uppercase;
-  /* letter-spacing: 2px; */
-  opacity: 8px;
-}
-
-.n {
-}
-
-.knew #d {
-  margin-top: 290px;
-}
-
-.pant {
-  background-image: url(img/pant.webp);
-  background-position: center;
+  background-image: url(/img/blue.jpg);
   background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
-  display: flex;
-  flex-direction: column;
-
-  /* padding-left: 15px; */
+  cursor: pointer;
 }
+
 .jacket {
-  background-image: url(img/jacket.webp);
-  background-position: center;
+  height: 380px;
+  width: 350px;
+  background-color: black;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/img/brown.jpg);
   background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
+  cursor: pointer;
 }
 
 .bag {
-  background-image: url(img/bag.webp);
-  background-position: center;
+  height: 380px;
+  width: 350px;
+  background-color: black;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/img/green-bag.jpg);
   background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
+  cursor: pointer;
 }
 
 .dress {
-  background-image: url(img/dress.jpg);
-  background-position: center;
+  height: 380px;
+  width: 350px;
+  background-color: black;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/img/turquoise.webp);
   background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
+  cursor: pointer;
+}
+
+.new-category a {
+  margin-top: 310px !important;
+  background-color: #c26868;
+  opacity: 0.8;
+  width: 100%;
+  text-align: center;
+  color: rgb(245, 237, 237);
+  font-family: Cormorant;
+  font-size: 23px;
+  border-radius: 0 0 30px 30px;
 }
 
 .about {
@@ -245,38 +261,12 @@ img {
   font-style: italic;
   text-align: center;
 }
-
-.product {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, auto));
-  gap: 2rem;
-}
-
-.product div {
-  position: relative;
-  transition: all 0.4s;
-}
-
-.product div img {
-  width: 100%;
-  height: 350px;
-  transition: all 0.4s;
-}
-/* 
-.pant p{
-  text-align: center;
-  box-sizing: border-box;
-  margin: 300px 0 30px 0 !important;
-  padding: 0 118px;
-background-color: #c26868;
-position: absolute;
-margin-bottom: 30px;
-opacity: 80%;
-} */
-
-/* .knew .pant .p{
-  margin-top: 50px;
-
+/* .lab input{
+  width: 5cm;
+  height: 1cm;
+  border: solid 1.8px;
+  border-radius: 6px;
+  padding: 0 0 0 10px;
 } */
 
 .asmall {
@@ -345,12 +335,13 @@ opacity: 80%;
 footer {
   background-color: rgb(75, 55, 55);
   height: 150px;
+  overflow: hidden;
 }
 
 footer ul {
   display: flex;
   align-items: center;
-  padding-left: 210px;
+  padding-left: 60px;
 }
 
 footer ul li {
